@@ -1,0 +1,28 @@
+Câu 2:
+
+- Tạo folder mới
+-> Vùng local (chỉ ở trên máy cá nhân)
+
+a. Tạo 3 file: file1, file2, file3
+-> Vùng local (chỉ ở trên máy cá nhân)
+
+b. Chạy lệnh: git init
+-> Vùng working directory.
+-> Khởi tạo repo ở local.
+
+c. Chạy lệnh: git commit -m"init project"
+-> Vùng working directory.
+-> Báo lỗi do đang không có file nào được thêm vào vùng chuẩn bị (staging)
+-> Nguyên nhân chưa chạy lệnh git add . 
+
+d. Chạy lệnh: git add file1
+-> Vùng working directory.
+-> Báo lỗi do đang thiếu đuôi ở tên file.
+
+e. Chạy lệnh: git commit -m"add file1"
+-> Vùng working directory.
+-> Báo lỗi do đang không có file nào được thêm vào vùng staging.
+
+f. Chạy lệnh: git commit -m"add file"
+-> Vùng working directory.
+-> Báo lỗi do đang không có file nào được thêm vào vùng staging.
