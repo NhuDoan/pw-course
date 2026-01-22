@@ -1,7 +1,7 @@
-let chieuCao = 160;
-let canNangLyTuong = ((chieuCao - 100) * 9) / 10;
-let canNangToiDa = chieuCao - 100;
-let canNangToiThieu = ((chieuCao - 100) * 8) / 10;
+const chieuCao = 160;
+const canNangLyTuong = ((chieuCao - 100) * 9) / 10;
+const canNangToiDa = chieuCao - 100;
+const canNangToiThieu = ((chieuCao - 100) * 8) / 10;
 
 console.log(
   "Cân nặng lý tưởng là",

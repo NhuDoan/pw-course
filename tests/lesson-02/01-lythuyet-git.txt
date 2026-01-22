@@ -3,5 +3,5 @@ Câu 1: Giải thích các câu lệnh
 - git init là câu lệnh khởi tạo, chỉ chạy duy nhất một lần lúc khởi tạo repo ở local.
 - git add <file_name> là câu lệnh thêm file cụ thể vào môi trường chuẩn bị (staging).
 - git add . là câu lệnh thêm tất cả các file thay đổi còn lại vào môi trường chuẩn bị (staging).
-- git commit -m"message" là câu lệnh để tạo repository.
+- git commit -m"message" là câu lệnh để lưu các thay đổi từ môi trường chuẩn bị vào (staging) vào repository.
 

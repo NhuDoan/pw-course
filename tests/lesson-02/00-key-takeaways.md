@@ -87,7 +87,7 @@ init -----------> add -> commit -> push
 
 #### Const
 - `const` is the cannot be changed
-- `const` is default -> Make the code more safe, simple to read. Only use `let` if make sure the value not changed. 
+- `const` is default -> Make the code more safe, simple to read.
 
 - Declaration: <từ khóa> <tên biến> = <giá trị>
 ```javascript
