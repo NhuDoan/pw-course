@@ -1,0 +1,16 @@
+Câu 1:
+
+`git commit --amend` 
+-> Sai cú pháp câu lệnh 
+
+`git commit --amend -m"<message>"`
+-> Dùng để update message của commit vừa được commit trước đó.
+
+`git restore --staged <file>`
+-> Dùng để chuyển 1 file từ staging về working directory
+
+`git reset HEAD~1`
+-> Dùng để chuyển file từ repository về working directory. 
+N là số lượng commit muốn reset.
+Không thể reset commit cụ thể, phải theo thứ tự từ trên xuống.
+Commit đầu tiên không thể bị reset, nếu muốn thì phải xóa thư mục .git rồi init lại. (không nên).

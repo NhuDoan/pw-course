@@ -1,0 +1,43 @@
+Câu 3: Giả sử có 1 folder demo mới được tạo. Liệt kê các file theo từng vùng, liệt kê commit và message tương ứng sau khi thao tác
+
+a. Chạy lệnh `git init`
+- Local: 
+- Working directory: 
+- Staging:
+- Repository:
+
+b. Tạo file file1.txt, file2.txt, oops/file3.txt
+- Local: 
+- Working directory: file1.txt, file2.txt, file3.txt
+- Staging:
+- Repository:
+
+c. Thêm file .gitignore:
+- Local: 
+- Working directory: file1.txt, file2.txt, file3.txt
+- Staging:
+- Repository:
+
+    i. Thêm vào file .gitignore dòng file1.txt
+    - Local: 
+    - Working directory: file1.txt, file2.txt, file3.txt
+    - Staging:
+    - Repository:
+    
+    ii. Thêm vào file .gitignore dòng oops/
+    - Local: 
+    - Working directory: file1.txt, file2.txt, file3.txt
+    - Staging:
+    - Repository:
+
+d. Chạy lệnh `git add .`
+- Local: 
+- Working directory: file1.txt, fil3.txt
+- Staging: file2.txt
+- Repository:
+
+e. Chạy lệnh `git commit -m"init project"`
+- Local: 
+- Working directory: file1.txt, fil3.txt
+- Staging: 
+- Repository: file2.txt
