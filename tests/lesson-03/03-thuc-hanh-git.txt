@@ -32,12 +32,12 @@ c. Thêm file .gitignore:
 
 d. Chạy lệnh `git add .`
 - Local: 
-- Working directory: file1.txt, fil3.txt
+- Working directory: file1.txt, file3.txt
 - Staging: file2.txt
 - Repository:
 
 e. Chạy lệnh `git commit -m"init project"`
 - Local: 
-- Working directory: file1.txt, fil3.txt
+- Working directory: file1.txt, file3.txt
 - Staging: 
 - Repository: file2.txt

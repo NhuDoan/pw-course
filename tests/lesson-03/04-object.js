@@ -27,7 +27,7 @@ const student = {
     english: 9.75,
   },
 };
-console.log(student["grades"]["english"]);
+console.log(student["grades"]["math"]);
 
 //Câu 4:
 const settings = {

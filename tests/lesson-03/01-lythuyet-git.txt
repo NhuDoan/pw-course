@@ -1,7 +1,7 @@
 Câu 1:
 
 `git commit --amend` 
--> Sai cú pháp câu lệnh 
+-> Dùng để sửa commit gần nhất và mở trình soạn thảo để đổi message.
 
 `git commit --amend -m"<message>"`
 -> Dùng để update message của commit vừa được commit trước đó.

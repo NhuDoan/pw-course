@@ -27,7 +27,7 @@ console.log(arr);
 
 //Câu 4:
 const logEmail = [];
-for (let i = 1; i <= 9; i++) {
+for (let i = 1; i <= 10; i++) {
   logEmail.push("user" + `${i}` + "@example.com");
 }
 console.log(logEmail);
